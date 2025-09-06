@@ -6,7 +6,7 @@ const QuestionAnswer = ({ item, index }) => {
       {item.type === "q" ? (
         <li
           key={index}
-          className="text-right p-1 border-5 bg-zinc-700 border-zinc-700 rounded-tl-3xl rounded-br-3xl rounded-bl-3xl w-fit"
+          className="text-right p-1 dark:border-5 border-3 dark:bg-zinc-700  dark:border-zinc-700 border-gray-500 rounded-tl-3xl rounded-br-3xl rounded-bl-3xl w-fit"
         >
           <Answer
             ans={item.text}
